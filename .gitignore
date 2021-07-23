@@ -1,0 +1,13 @@
+# Gradle
+.gradle
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Misc
+*.log
+*.class
+
+# Rust
+*/target
