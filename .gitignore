@@ -10,4 +10,4 @@ gradle-app.setting
 *.class
 
 # Rust
-*/target
+target/

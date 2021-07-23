@@ -1,23 +1,13 @@
-# Unit Tests
+# What, Why, and How
 
-## What
-Unit tests are typically automated tests written and run by software developers to ensure that a section of an application (known as the "unit") meets its design and behaves as intended.
+The goal here is to introduce a concept by answering the said questions tersely.
 
-## Why
-A unit test provides a strict, written contract that the piece of code must satisfy.
+# Topics
 
-Unit testing finds problems early in the development cycle.
+* [Unit tests](unit_tests/README.md)
 
-Unit testing allows the programmer to refactor code or upgrade system libraries at a later date, and make sure the module still works correctly.
+# Contributing
 
-## How
-Unit testing frameworks
+Want to add a concept to the catalog? [PR's are most welcome~](https://github.com/happy-trains/WWH/pulls)
 
-* [Junit](/junit5-jupiter-starter-gradle-kotlin/README.md)
-
-Language-level unit testing support
-
-* [Rust](/rust/README.md)
-
-## Reference
-Wikipedia: [Unit testing](https://en.wikipedia.org/wiki/Unit_testing)
+Found a mistake? [Please raise an issue~](https://github.com/happy-trains/WWH/issues/new)
