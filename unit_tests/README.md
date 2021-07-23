@@ -13,11 +13,11 @@ Unit testing allows the programmer to refactor code or upgrade system libraries 
 ## How
 Unit testing frameworks
 
-* [Junit](/junit5-jupiter-starter-gradle-kotlin/README.md)
+* [Junit](junit5-jupiter-starter-gradle-kotlin/README.md)
 
 Language-level unit testing support
 
-* [Rust](/rust/README.md)
+* [Rust](rust/README.md)
 
 ## Reference
 Wikipedia: [Unit testing](https://en.wikipedia.org/wiki/Unit_testing)
