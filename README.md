@@ -5,6 +5,7 @@ The goal here is to introduce a concept by answering the said questions tersely.
 # Topics
 
 * [Unit tests](unit_tests/README.md)
+* [Dynamic Array](dynamic_array/README.md)
 
 # Contributing
 
