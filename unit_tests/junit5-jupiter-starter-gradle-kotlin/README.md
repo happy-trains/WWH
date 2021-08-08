@@ -9,6 +9,7 @@ The JUnit Platform serves as a foundation for launching testing frameworks on th
 
 ## Example
 [Calculator.kt](src/main/kotlin/com/example/project/Calculator.kt)
+
 [CalculatorTests.kt](src/test/kotlin/com/example/project/CalculatorTests.kt)
 
 Run `./gradlew test` to execute all tests.
