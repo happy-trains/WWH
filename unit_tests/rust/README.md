@@ -1,8 +1,16 @@
 # Rust unit test
-Example from the [official Rust docs](https://doc.rust-lang.org/rust-by-example/testing/unit_testing.html).
+Tests are Rust functions that verify that the non-test code is functioning in the expected manner. The bodies of test functions typically perform some setup, run the code we want to test, then assert whether the results are what we expect.
 
+Most unit tests go into a tests [mod](https://doc.rust-lang.org/rust-by-example/mod.html) with the `#[cfg(test)]` [attribute](https://doc.rust-lang.org/rust-by-example/attribute.html). Test functions are marked with the `#[test]` attribute.
 
-# Execution
+Tests fail when something in the test function [panics](https://doc.rust-lang.org/rust-by-example/attribute.html). There are some helper [macros](https://doc.rust-lang.org/rust-by-example/macros.html):
+
+- `assert!(expression)` - panics if expression evaluates to false.
+- `assert_eq!(left, right)` and `assert_ne!(left, right)` - testing left and right expressions for equality and inequality respectively.
+
+## Example
+
+[main.rs](src/main.rs)
 
 Executing `cargo test` returns:
 
@@ -28,3 +36,5 @@ test result: FAILED. 1 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; 
 error: test failed, to rerun pass '--bin rust'
 ```
 
+## Reference
+Rust By Example: [Unit testing](https://doc.rust-lang.org/rust-by-example/testing/unit_testing.html)
